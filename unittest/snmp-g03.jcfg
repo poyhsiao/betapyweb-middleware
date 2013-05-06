@@ -1,0 +1,4 @@
+snmp {
+	enable 0
+	community "ABtCD"
+}

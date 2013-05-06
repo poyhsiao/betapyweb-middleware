@@ -1,0 +1,13 @@
+auto-routing {
+	method traffic
+	aging 27 
+	rule-array {
+		rule {
+			service group@6
+			wan1 1
+			wan2 1
+			wan3 0
+			wan4 0
+		}
+	}
+}

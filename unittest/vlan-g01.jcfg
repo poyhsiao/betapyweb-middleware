@@ -1,0 +1,8 @@
+vlan {
+    vconfig-array {
+        vconfig { #1
+            interface s0e2
+            vlan_id 10
+        }
+    }
+}

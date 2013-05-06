@@ -1,0 +1,1 @@
+{"br": [{"STP": true, "name": "s0b1", "hello_time": 5, "interface": ["s0e2"], "max_message_age": 5, "forward_delay": 5}]}

@@ -1,0 +1,13 @@
+bridge {
+    br-array {
+        br { #1
+            name s0b1
+            interface-array {
+                interface s0e2 #1
+            }
+            hello_time 5
+            max_message_age 5
+            forward_delay 5
+        }
+    }
+}

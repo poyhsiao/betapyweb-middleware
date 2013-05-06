@@ -1,0 +1,5 @@
+{
+	"hostname":"test.host",
+	"domain-name":"test.domain.org",
+	"dns-server-2":"9.8.7.6"
+}

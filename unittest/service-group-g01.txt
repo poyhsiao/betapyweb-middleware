@@ -1,0 +1,17 @@
+service-group {
+	group-array {
+		group {
+			label g1
+			service-array {
+				service proto@27
+				service tcp@6635
+			}
+		}
+		group {
+			label g2
+			service-array {
+				service udp@117
+			}
+		}
+	}
+}

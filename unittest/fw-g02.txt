@@ -1,0 +1,15 @@
+firewall {
+	rule-array {
+		rule {
+			source lan
+			action deny	
+		}
+		rule {
+			action accept
+			source lan
+			destination wan
+			service tcp@443
+			log 1
+		}
+	}
+}

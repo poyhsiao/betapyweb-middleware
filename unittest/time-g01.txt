@@ -1,0 +1,4 @@
+time {
+	time-zone TAIPEI
+	time-server pool.ntp.org	
+}

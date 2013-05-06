@@ -1,0 +1,10 @@
+connection-limit {
+	rule-array {
+		rule {
+			source 9.9.0.0/255.255.255.0
+			destination 7.7.7.0/255.255.0.0
+			rate 99
+			log 1
+		}
+	}
+}

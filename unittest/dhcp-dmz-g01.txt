@@ -1,0 +1,14 @@
+dhcp-dmz {
+	dns-server-1 8.8.8.8
+	domain-name-suffix text.xtera-ip
+	dynamic-range-array {
+		range 9.9.9.9-9.9.9.100
+		range 9.9.10.1-9.9.10.12
+	}
+	static-mapping-array {
+		mapping { 
+			mac 08:00:27:9c:90:55
+			ip 9.9.11.12
+		}
+	}
+}

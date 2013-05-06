@@ -1,0 +1,10 @@
+virtual-server {
+	rule-array {
+		rule {
+			ip 7.7.7.7
+			wan1 NONE
+			wan2 8.8.8.8
+			wan3 9.9.9.9
+		}
+	}
+}

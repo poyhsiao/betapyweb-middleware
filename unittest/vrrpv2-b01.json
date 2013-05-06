@@ -1,0 +1,53 @@
+{
+	"group": [
+		{
+			"group-name": "abc",
+			"instance": [
+				{
+					"instance-name": "def",
+					"interface": "s0e1",
+					"additional-track-interfaces": [
+						"s0e1",
+						"s0e2"
+					],
+					"sync-interface": "s0e1",
+					"delay-gratuitous-arp": 0,
+					"virtual-router-id": "ghi",
+					"priority": 1,
+					"advertisement-interval": 0,
+					"ipv4_vip": [
+						{
+							"ipv4": "1.2.3.4",
+							"netmask": "255.255.255.0",
+							"interface": "s0e1"
+						}
+					],
+					"ipv4_vr": [
+						{
+							"destination-ipv4": "1.2.3.4",
+							"netmask": "255.255.255.0",
+							"gateway": "1.2.3.4",
+							"interface": "s0e1"
+						}
+					],
+					"ipv6_vip": [
+						{
+							"ipv6": "2001::1",
+							"prefix": 64,
+							"interface": "s0e1"
+						}
+					],
+					"ipv6_vr": [
+						{
+							"destination-ipv6": "2001::1",
+							"prefix": 64,
+							"gateway": "2001::1",
+							"interface": "s0e1"
+						}
+					],
+					"preempt": true
+				}
+			]
+		}
+	]
+}

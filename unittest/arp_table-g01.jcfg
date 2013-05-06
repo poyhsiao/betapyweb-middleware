@@ -1,0 +1,30 @@
+arp_table {
+    ipv4_static-array {
+        ipv4_static { #1
+            interface s0e1
+            ip 192.168.0.135
+            mac 08:00:27:fd:9d:f9
+        }
+    }
+    ipv4_dynamic-array {
+        ipv4_dynamic { #1
+            interface s0e1
+            ip 192.168.0.112
+            mac 6c:f0:27:fd:ea:23
+        }
+    }
+    ipv6_static-array {
+        ipv6_static { #1
+            interface s0e1
+            ip 2001::1234
+            mac 08:00:27:fd:9d:f9
+        }
+    }
+    ipv6_dynamic-array {
+        ipv6_dynamic { #1
+            interface s0e1
+            ip 2001::2468
+            mac 6c:f0:27:fd:ea:23
+        }
+    }
+}

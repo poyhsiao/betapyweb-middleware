@@ -1,0 +1,9 @@
+email {
+	alert True
+	from abc@xtera-ip.com
+	to-array {
+		to def@xtera-ip.com #1
+	}
+	server 1.2.3.4
+	timeout 10
+}

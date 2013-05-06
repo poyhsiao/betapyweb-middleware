@@ -1,0 +1,9 @@
+ip-group {
+	group-array {
+		group {
+			ip-array {
+				ip 9.8.7.6-9.8.7.6
+			}
+		}
+	}
+}

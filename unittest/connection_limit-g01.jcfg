@@ -1,0 +1,34 @@
+connection_limit {
+    ipv4-array {
+        ipv4 { #1
+            source_ip 10.10.10.1
+            destination_ip 10.10.10.2
+            protocol TCP
+            limit_rate 5
+            limit_rate_unit second
+        }
+        ipv4 { #2
+            source_ip 10.10.10.1
+            destination_ip 10.10.10.2
+            protocol UDP
+            limit_rate 5
+            limit_rate_unit minute
+        }
+    }
+    ipv6-array {
+        ipv6 { #1
+            source_ip 2001::1
+            destination_ip 2001::2
+            protocol TCP
+            limit_rate 5
+            limit_rate_unit second
+        }
+        ipv6 { #2
+            source_ip 2001::1
+            destination_ip 2001::2
+            protocol UDP
+            limit_rate 5
+            limit_rate_unit minute
+        }
+    }
+}

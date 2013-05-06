@@ -1,0 +1,7 @@
+{
+	"alert":true,
+	"from":"abc@xtera-ip.com",
+	"to":["def@xtera-ip.com"],
+	"server":"1.2.3.4",
+	"timeout":10
+}

@@ -1,0 +1,17 @@
+ip-group {
+	group-array {
+		group {
+			label g1
+			ip-array {
+				ip 9.8.7.6
+				ip 5.4.3.0/255.255.255.0
+			}
+		}
+		group {
+			label g2
+			ip-array {
+				ip 1.2.3.4-1.2.3.100
+			}
+		}
+	}
+}

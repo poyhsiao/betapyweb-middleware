@@ -1,0 +1,14 @@
+account {
+    user-array {
+        user { #1
+            name admin
+            group admin
+            password 1234
+        }
+        user { #2
+            name monitor
+            group monitor
+            password 5678
+        }
+    }
+}

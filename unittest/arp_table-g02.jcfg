@@ -1,0 +1,40 @@
+arp_table {
+	ipv4_static-array {
+		ipv4_static { #1
+			interface eth0
+			ip 10.12.95.222
+			mac 00:00:00:00:00:00
+		}
+		ipv4_static { #2
+			interface eth0
+			ip 10.12.95.223
+			mac 00:00:00:00:00:00
+		}
+	}
+	ipv4_dynamic-array {
+		ipv4_dynamic { #1
+			interface eth0
+			ip 10.12.95.225
+			mac 00:00:00:00:00:00
+		}
+	}
+	ipv6_static-array {
+		ipv6_static { #1
+			interface eth0
+			ip 2002::2002
+			mac 00:00:00:00:00:00
+		}
+		ipv6_static { #2
+			interface eth0
+			ip 2003::2003
+			mac 00:00:00:00:00:00
+		}
+	}
+	ipv6_dynamic-array {
+		ipv6_dynamic { #1
+			interface eth0
+			ip 2010::2010
+			mac 00:00:00:00:00:00
+		}
+	}
+}

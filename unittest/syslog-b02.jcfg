@@ -1,0 +1,3 @@
+syslog {
+	facility loCAL12
+}

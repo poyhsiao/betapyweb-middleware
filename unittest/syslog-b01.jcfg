@@ -1,0 +1,3 @@
+syslog {
+	server a.b.c.d
+}

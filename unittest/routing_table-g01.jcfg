@@ -1,0 +1,14 @@
+routing_table {
+    ipv4-array {
+        ipv4 { #1
+            destination 192.168.0.0
+            gateway 192.168.0.254
+        }
+    }
+    ipv6-array {
+        ipv6 { #1
+            destination 2001::
+            gateway 2001::2001
+        }
+    }
+}

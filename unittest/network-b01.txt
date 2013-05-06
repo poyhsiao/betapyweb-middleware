@@ -1,0 +1,62 @@
+network {
+	lan {
+		basic-subnet-array {
+			subnet {
+				mask 255.255.255.0
+			}
+			subnet {
+				ip 192.168.0.99-192.168.0.199
+				mask 255.255.255.0
+			}
+		}
+		static-route-array {
+			route {
+				subnet 8.8.8.0/255.255.255.0
+				gateway 192.168.0.8
+			}
+		}
+	}
+	wan1 {
+		ethernet {
+			speed-duplex 100/half
+		}
+		enable 1
+		label WAN1qq
+		type static
+		static-mode {
+			ip-array {
+				ip 192.168.1.1
+				ip 192.168.1.50-192.168.1.60
+			}
+			mask 255.255.255.0
+			gateway 192.168.1.254
+		}
+		public-ip-passthrough {
+			rule-array {
+				rule {
+					ip 1.2.3.4
+					mask 255.255.255.0
+				}
+				rule {
+					ip 5.6.7.8-5.6.7.88
+					mask 255.255.255.0
+				}
+			}
+		}
+	}
+	wan2 {
+		enable 1
+		label WAN2
+		type pppoe
+		pppoe-mode {
+			username aaname
+			password c3lGWGRUQlArendXN0NBWg==
+			service-name ssname
+			daily-redial 05:03
+		}
+	}
+	wan3 {
+		enable 0 
+		type dhcp
+	}
+}

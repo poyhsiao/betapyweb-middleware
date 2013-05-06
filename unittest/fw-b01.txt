@@ -1,0 +1,9 @@
+{
+	rule-array {
+		rule {
+			destination LoCalhost
+			rate 99
+			log 1
+		}
+	}
+}

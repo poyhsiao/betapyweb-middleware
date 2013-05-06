@@ -1,0 +1,7 @@
+snmp {
+	enable 1
+	community A
+	system-name B
+	system-contact C
+	system-location D
+}

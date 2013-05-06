@@ -1,0 +1,14 @@
+{
+	"admin": {
+		"g": "admin", 
+		"p": "1234"
+	},
+	"monitor": {
+		"g": "monitor", 
+		"p": "5678"
+	},
+	"remove_me": {
+		"g": "monitor", 
+		"p": "225789"
+	}
+}

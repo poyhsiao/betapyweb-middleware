@@ -1,0 +1,39 @@
+vrrpv2 {
+    group-array {
+        group { #1
+            group-name VG_1
+            instance-array {
+                instance { #1
+                    instance-name VI_1
+                    additional_track_interfaces ['s0e2']
+                    delay-gratuitous-arp 5
+                    advertisement-interval 10
+                    ipv4_vip-array {
+                        ipv4_vip { #1
+                            ipv4 192.168.1.1
+                            netmask 255.255.255.0
+                        }
+                    }
+                    ipv4_vr-array {
+                        ipv4_vr { #1
+                            destination-ipv4 192.168.1.1
+                            netmask 255.255.255.0
+                            gateway 192.168.1.1
+                        }
+                    }
+                    ipv6_vip-array {
+                        ipv6_vip { #1
+                            ipv6 2001::1
+                        }
+                    }
+                    ipv6_vr-array {
+                        ipv6_vr { #1
+                            destination-ipv6 2001::1
+                            gateway 2001::1
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

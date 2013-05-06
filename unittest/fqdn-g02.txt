@@ -1,0 +1,8 @@
+fqdn {
+	fqdn-array {
+		fqdn a.b.com
+		fqdn ""
+		fqdn c.d.org #2
+		fqdn www.104.com #2
+	}
+}

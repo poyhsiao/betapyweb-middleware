@@ -1,0 +1,7 @@
+snmp {
+    enable True
+    community public
+    system_name SLB
+    system_contact "info <info@xtera.com>"
+    system_location "4F, 102 Guangfu S. Road, Daan District, Taipei 10612, Taiwan"
+}

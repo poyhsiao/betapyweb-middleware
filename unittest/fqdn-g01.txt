@@ -1,0 +1,6 @@
+fqdn {
+	fqdn-array {
+		fqdn a.b.com
+		fqdn c.d.org #2
+	}
+}

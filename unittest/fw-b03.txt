@@ -1,0 +1,8 @@
+firewall {
+	rule-array {
+		rule {
+			source lan
+			action denyX	
+		}
+	}
+}
