@@ -1,0 +1,4 @@
+snmp {
+    community public
+    system_name SLB
+}

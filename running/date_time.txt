@@ -1,0 +1,4 @@
+date_time {
+    time_zone Taipei
+    time_server 59.124.196.83
+}

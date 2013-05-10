@@ -1,0 +1,4 @@
+vrrpv2 {
+    group-array {
+    }
+}
